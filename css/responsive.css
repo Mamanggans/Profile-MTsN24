@@ -27,7 +27,7 @@
       display: block;
     }
     
-    .btns {
+    .btn {
       width: 100%;
     }
   
@@ -118,8 +118,6 @@
       .fi-cont p {
     
       }
-      
-
       main {
         padding: 20px;   
         overflow-x: hidden;

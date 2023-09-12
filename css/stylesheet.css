@@ -2,11 +2,8 @@
 
 * {
   box-sizing: border-box;
-  text-decoration: none;
 }
-ul {
-  list-style-type: none;
-}
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
@@ -76,7 +73,7 @@ a {
   background-color: #55acee;
 }
 
-.btns {
+.btn {
   padding: 12px 24px;
   color: white;
   display: inline-block;
@@ -207,7 +204,12 @@ header {
   float: right;
   padding: 10x 60px 40px 60px;
 }
-
+li{
+  list-style: none;
+  float: left;
+  padding-bottom:10px;
+  padding-left: 40px;
+}
 
 /* Ketik code Anda dibawah */
 span.menu-icon {
