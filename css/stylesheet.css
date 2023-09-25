@@ -65,9 +65,13 @@ a {
 }
 
 .selengkapnya {
-  background-color: #42C2FF;
+  background-color: #D2DE32;
     border-radius: 50px;
+    color: #016A70;
 
+}
+.btn-wrapper a {
+  color: black;
 }
 
 .kegiatan {
@@ -77,6 +81,9 @@ a {
 
 .penelitian {
   background-color: #55acee;
+}
+.embed-responsive{
+  text-align: center;
 }
 
 .btn {
@@ -341,6 +348,7 @@ span.menu-icon {
   margin-top: 8%;
 	transition: .5s ease;
 	cursor: pointer; 
+  margin-bottom: 4%;
 }
 
 .profile:hover{
@@ -363,6 +371,10 @@ span.menu-icon {
 
 }
 
+.jln-gmaps {
+  text-align: center;
+}
+
   aside {
     float: right;
     width: 28%;
@@ -379,8 +391,20 @@ span.menu-icon {
   }
   .nama-kel {
     margin-top: 3%;
-    padding: 2%;
+    /* padding: 2%; */
 
+  }
+
+  .tengah-txt {
+    text-align: center;
+    font-weight: normal;
+  }
+  .judul-pro {
+    font-size: 40px;
+     font-family: 'Roboto', sans-serif;
+     color: black;
+     text-align: center;
+     margin-top: 20px;
   }
   .site-profile {
     display: grid;
@@ -398,6 +422,7 @@ span.menu-icon {
     background: #F38BA0;
     cursor: pointer;
     text-decoration: none;
+    
   }
   .site-profile:hover {
     color: white;
@@ -407,6 +432,63 @@ span.menu-icon {
     display:flex;
     justify-content: space-around;
   }
+
+  .social-menu ul{
+    
+    margin-left: -20px;
+    top: 50%;
+
+    /* padding: 0;
+    margin: 0; */
+    display: flex;
+
+}
+
+.social-menu ul li{
+    list-style: none;
+      margin: 0 auto;
+    /* margin: 0 15px; */
+}
+
+.social-menu ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover{
+    color: #fff;
+}
+
+.social-menu ul li a{
+
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #E4405F;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #0077b5;
+}
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: #000;
+}
   
 
   footer {
