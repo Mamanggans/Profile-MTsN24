@@ -372,7 +372,11 @@ span.menu-icon {
 }
 
 .jln-gmaps {
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px red;
+  max-width: 75%;
+  height: 50%;
 }
 
   aside {
